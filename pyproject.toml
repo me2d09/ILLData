@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "illdata"
+version = "0.1.0"
+description = "Python client for downloading and uploading data via ILL SFTP."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Petr Čermák"}]
+keywords = ["ILL", "SFTP", "data"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Environment :: Console",
+  "Topic :: Internet :: File Transfer Protocol (FTP)",
+  "Topic :: Utilities"
+]
+dependencies = [
+  "pysftp>=0.2.9"
+]
+
+[project.urls]
+Repository = "https://github.com/me2d09/ILLData"
+
+[project.scripts]
+illdata = "illdata.cli:main"

@@ -1,2 +1,12 @@
-/pyproject.toml
-/README.md
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.env
