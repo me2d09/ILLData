@@ -13,7 +13,7 @@ Lightweight Python client for working with ILL SFTP (Institut Laue–Langevin). 
 ## Installation (local)
 
 ```bash
-pip install git+https://github.com/me2d09/ILLData.git
+pip install illdata
 
 ````
 
