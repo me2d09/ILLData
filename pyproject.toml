@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "illdata"
-version = "0.2.0"
-description = "Python client for downloading and uploading data via ILL SFTP."
+version = "0.2.1"
+description = "Python client for downloading data from Institute Laue Langevin via SFTP."
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [{name = "Petr Čermák"}]
